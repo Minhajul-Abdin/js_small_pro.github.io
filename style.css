@@ -1,0 +1,48 @@
+* {
+  background: rgb(41, 60, 78);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  background: #fff;
+  color: #333;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  padding: 9px 25px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+label {
+  color: #fff;
+}
+
+.butt {
+  color: #fff;
+  background: lightslategrey;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  padding: 9px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+#eror {
+  color: rgb(255, 25, 25);
+  border-radius: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
